@@ -1,0 +1,67 @@
+// Copia de deportes.json para poder abrir index.html con doble clic
+const DEPORTES_DATA = {
+  "info": { "count": 6, "descripcion": "API de deportes" },
+  "results": [
+    {
+      "id": 1,
+      "nombre": "Fútbol",
+      "escenario": "Estadio / Cancha de pasto",
+      "dimensiones": "105 m x 68 m",
+      "numero_elementos": 11,
+      "equipo": { "short": "Short deportivo", "playera": "Playera con número", "tacos": "Tacos con puntas", "medias": "Medias largas" },
+      "pais": "Inglaterra",
+      "imagen": "img/futbol.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Baloncesto",
+      "escenario": "Cancha techada de duela",
+      "dimensiones": "28 m x 15 m",
+      "numero_elementos": 5,
+      "equipo": { "short": "Short largo holgado", "playera": "Jersey sin mangas", "tacos": "Tenis de caña alta", "medias": "Calcetas deportivas" },
+      "pais": "Estados Unidos",
+      "imagen": "img/baloncesto.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Béisbol",
+      "escenario": "Diamante / Estadio",
+      "dimensiones": "27.43 m entre bases",
+      "numero_elementos": 9,
+      "equipo": { "short": "Pantalón largo", "playera": "Jersey con botones", "tacos": "Spikes", "medias": "Calcetas altas" },
+      "pais": "Estados Unidos",
+      "imagen": "img/beisbol.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Voleibol",
+      "escenario": "Cancha techada con red",
+      "dimensiones": "18 m x 9 m",
+      "numero_elementos": 6,
+      "equipo": { "short": "Short ajustado", "playera": "Playera ligera", "tacos": "Tenis con suela de goma", "medias": "Calcetas cortas" },
+      "pais": "Estados Unidos",
+      "imagen": "img/voleibol.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Rugby",
+      "escenario": "Campo de pasto con postes en H",
+      "dimensiones": "100 m x 70 m",
+      "numero_elementos": 15,
+      "equipo": { "short": "Short resistente", "playera": "Jersey reforzado", "tacos": "Tacos con puntas", "medias": "Medias largas" },
+      "pais": "Inglaterra",
+      "imagen": "img/rugby.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Hockey sobre hielo",
+      "escenario": "Pista de hielo",
+      "dimensiones": "60 m x 30 m",
+      "numero_elementos": 6,
+      "equipo": { "short": "Pantalón acolchado", "playera": "Jersey holgado", "tacos": "Patines de cuchilla", "medias": "Calcetas largas" },
+      "pais": "Canadá",
+      "imagen": "img/hockey.jpg"
+    }
+  ]
+}
+;
